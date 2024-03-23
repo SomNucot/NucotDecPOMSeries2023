@@ -34,13 +34,13 @@ public class InitialSetUp {
 			odriver=new ChromeDriver(optionsManager.getChromeOptions());
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){
-			odriver=new FirefoxDriver();
+			odriver=new FirefoxDriver(optionsManager.getFirefoxOptions());
 		}	
 		else if(browserName.equalsIgnoreCase("safari")){
 			odriver=new SafariDriver();
 		}	
 		else if(browserName.equalsIgnoreCase("edge")){
-			odriver=new EdgeDriver();
+			odriver=new EdgeDriver(optionsManager.getEdgeOptions());
 		}	
 		else if(browserName.equalsIgnoreCase("ie")){
 			odriver=new InternetExplorerDriver();
