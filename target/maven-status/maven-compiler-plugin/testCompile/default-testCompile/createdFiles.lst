@@ -1,0 +1,4 @@
+com/nucot/qa/hrm/pagetests/BaseTest.class
+com/nucot/qa/hrm/pagetests/HomePageTest.class
+com/nucot/qa/hrm/pagetests/LoginPageTest.class
+com/nucot/qa/hrm/pagetests/ProductListPageTest.class
